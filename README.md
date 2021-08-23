@@ -1,2 +1,2 @@
 # CppND-System-Monitor-Updated
-Person Projecty for Udacity CPP course
+Personal Projecty for Udacity CPP course
