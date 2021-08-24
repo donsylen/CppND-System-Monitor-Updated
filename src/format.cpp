@@ -1,11 +1,24 @@
-#include <string>
-
 #include "format.h"
 
-using std::string;
+#include <iomanip>
+#include <string>
 
-// TODO: Complete this helper function
+using std::string;
+using std::stringstream;
+
+// DONE: Complete this helper function
 // INPUT: Long int measuring seconds
 // OUTPUT: HH:MM:SS
-// REMOVE: [[maybe_unused]] once you define the function
-string Format::ElapsedTime(long seconds[[maybe_unused]]) { return string(); }
+string Format::ElapsedTime(long seconds) {
+  int h = seconds / (60 * 60);
+  int m = (seconds / 60) % 60;
+  int s = seconds % 60;
+
+  stringstream ss;
+
+  ss << std::setfill('0') << std::setw(2) << h << ":";
+  ss << std::setfill('0') << std::setw(2) << m << ":";
+  ss << std::setfill('0') << std::setw(2) << s;
+
+  return ss.str();
+}

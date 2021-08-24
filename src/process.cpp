@@ -13,15 +13,16 @@ using std::string;
 using std::to_string;
 using std::vector;
 
-Process::Process(int pid): pid_(pid) {
-    cout << "PID is constructed: " << pid_;
+Process::Process(int pid) {
+ pid_ = pid;
 }
+
 
 // TODO: Return this process's ID
 int Process::Pid() const { return pid_; }
 
 // TODO: Return this process's CPU utilization
-float Process::CpuUtilization() { 
+float Process::CpuUtilization() const{ 
     long active_jiffies_pid =  LinuxParser::ActiveJiffies(Pid());
     float active_time_pid = float(active_jiffies_pid * sysconf(_SC_CLK_TCK)); // in seconds
     float start_time_pid = float(LinuxParser:: UpTime());
@@ -53,3 +54,4 @@ long int Process::UpTime() {
 // REMOVE: [[maybe_unused]] once you define the function
 bool Process::operator<(Process const& a) const { 
     return a.CpuUtilization() < this->CpuUtilization(); }
+
