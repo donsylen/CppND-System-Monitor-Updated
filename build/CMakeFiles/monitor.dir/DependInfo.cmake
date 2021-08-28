@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/src/format.cpp" "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/format.cpp.o"
-  "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/src/linux_parser.cpp" "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/linux_parser.cpp.o"
-  "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/src/main.cpp" "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/main.cpp.o"
-  "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/src/ncurses_display.cpp" "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/ncurses_display.cpp.o"
-  "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/src/process.cpp" "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/process.cpp.o"
-  "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/src/processor.cpp" "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/processor.cpp.o"
-  "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/src/system.cpp" "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/build/CMakeFiles/monitor.dir/src/system.cpp.o"
+  "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/CppND-System-Monitor-Updated/src/format.cpp" "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/CppND-System-Monitor-Updated/build/CMakeFiles/monitor.dir/src/format.cpp.o"
+  "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/CppND-System-Monitor-Updated/src/linux_parser.cpp" "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/CppND-System-Monitor-Updated/build/CMakeFiles/monitor.dir/src/linux_parser.cpp.o"
+  "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/CppND-System-Monitor-Updated/src/main.cpp" "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/CppND-System-Monitor-Updated/build/CMakeFiles/monitor.dir/src/main.cpp.o"
+  "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/CppND-System-Monitor-Updated/src/ncurses_display.cpp" "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/CppND-System-Monitor-Updated/build/CMakeFiles/monitor.dir/src/ncurses_display.cpp.o"
+  "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/CppND-System-Monitor-Updated/src/process.cpp" "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/CppND-System-Monitor-Updated/build/CMakeFiles/monitor.dir/src/process.cpp.o"
+  "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/CppND-System-Monitor-Updated/src/processor.cpp" "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/CppND-System-Monitor-Updated/build/CMakeFiles/monitor.dir/src/processor.cpp.o"
+  "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/CppND-System-Monitor-Updated/src/system.cpp" "/home/donsylen/C++/CppND-System-Monitor-Project-Updated/CppND-System-Monitor-Updated/build/CMakeFiles/monitor.dir/src/system.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
