@@ -21,7 +21,7 @@ class Process {
   // TODO: Declare any necessary private members
  private: 
  int pid_;
- float cpu_usage_proc;
+
  
 };              
 

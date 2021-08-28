@@ -53,6 +53,8 @@ format.h
 /home/donsylen/C++/CppND-System-Monitor-Project-Updated/src/format.h
 
 /home/donsylen/C++/CppND-System-Monitor-Project-Updated/src/linux_parser.cpp
+linux_parser.h
+/home/donsylen/C++/CppND-System-Monitor-Project-Updated/src/linux_parser.h
 dirent.h
 -
 unistd.h
@@ -63,8 +65,6 @@ string
 -
 vector
 -
-linux_parser.h
-/home/donsylen/C++/CppND-System-Monitor-Project-Updated/src/linux_parser.h
 
 /home/donsylen/C++/CppND-System-Monitor-Project-Updated/src/main.cpp
 ncurses_display.h
